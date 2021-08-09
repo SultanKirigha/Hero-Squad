@@ -2,6 +2,9 @@
     color: #020202;
     font-weight: 500;
 }
+.navbar-light .navbar-nav .nav-link {
+    color: black
+}
 
 .container {
     background: rgba(255,255,255,0.9);
@@ -10,9 +13,6 @@
     margin-bottom: 0px;
 }
 
-#navLogo {
-    margin-right: 15px;
-}
 
 .nav-link:hover {
     text-decoration: underline;
@@ -61,14 +61,4 @@
 .heroSquadCard {
     width: 20rem;
     margin: auto;
-}
-
-/*--------------------- FAQ.HBS --------------------- */
-#faqDiv #inner-ordered-list {
- list-style-type: lower-roman;
- margin: 5px auto;
-}
-
-#faqFooter {
-    margin: 20px auto;
 }
