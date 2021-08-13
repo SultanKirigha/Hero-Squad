@@ -1,3 +1,10 @@
+body{
+   background-image: url('/images/1044472.jpg');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   font-family: 'Poppins', sans-serif;
+}
 .nav-item {
     color: #020202;
     font-weight: 500;
@@ -7,7 +14,6 @@
 }
 
 .container {
-    background: rgba(255,255,255,0.9);
     padding-top: 4rem;
     padding-bottom: 100vh;
     margin-bottom: 0px;
